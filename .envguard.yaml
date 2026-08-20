@@ -1,0 +1,12 @@
+version: 1
+
+scan:
+  max_file_size: 5MB
+
+entropy:
+  enabled: true
+  threshold: 4.5
+  min_length: 20
+
+severity:
+  fail_on: HIGH

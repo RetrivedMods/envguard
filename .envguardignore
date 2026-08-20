@@ -1,0 +1,35 @@
+# Dependencies
+.git/
+node_modules/
+vendor/
+.gradle/
+.venv/
+venv/
+__pycache__/
+
+# Build output
+build/
+dist/
+out/
+target/
+bin/
+obj/
+app/build/
+app/.cxx/
+.cxx/
+Debug/
+Release/
+coverage/
+
+# IDE and generated metadata
+.idea/
+.vscode/
+.cache/
+compile_commands.json
+build.ninja
+cmake_install.cmake
+*.map
+*.min.js
+*.min.css
+*.generated.*
+*_generated.*
