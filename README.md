@@ -12,18 +12,13 @@ Download `envguard.exe` from the [latest release](https://github.com/RetrivedMod
 
 ## Usage
 
-Initialize envGuard in your repo:
-
-```bash
-.\envguard.exe init
-```
+**Place `envguard.exe` in the root folder of the project you want to scan**.
 
 Scan the current directory:
 
-```bash
+```powershell
 .\envguard.exe scan .
 ```
-
 Scan and output JSON:
 
 ```bash
